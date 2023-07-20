@@ -1,0 +1,257 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  主色  -->
+    <SolidColorBrush x:Key="BrandColor" Color="#409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T7" Color="#EE409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T6" Color="#CC409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T5" Color="#AA409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T4" Color="#88409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T3" Color="#66409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T2" Color="#44409EFF" />
+    <SolidColorBrush x:Key="BrandColor_T1" Color="#22409EFF" />
+
+    <!--  辅助色  -->
+    <SolidColorBrush x:Key="SuccessColor" Color="#67C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T7" Color="#EE67C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T6" Color="#CC67C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T5" Color="#AA67C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T4" Color="#8867C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T3" Color="#6667C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T2" Color="#4467C23A" />
+    <SolidColorBrush x:Key="SuccessColor_T1" Color="#2267C23A" />
+
+    <SolidColorBrush x:Key="WarningColor" Color="#E6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T7" Color="#EEE6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T6" Color="#CCE6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T5" Color="#AAE6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T4" Color="#88E6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T3" Color="#66E6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T2" Color="#44E6A23C" />
+    <SolidColorBrush x:Key="WarningColor_T1" Color="#22E6A23C" />
+
+    <SolidColorBrush x:Key="DangerColor" Color="#F56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T7" Color="#EEF56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T6" Color="#CCF56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T5" Color="#AAF56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T4" Color="#88F56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T3" Color="#66F56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T2" Color="#44F56C6C" />
+    <SolidColorBrush x:Key="DangerColor_T1" Color="#22F56C6C" />
+
+    <SolidColorBrush x:Key="InfoColor" Color="#909399" />
+    <SolidColorBrush x:Key="InfoColor_T7" Color="#EE909399" />
+    <SolidColorBrush x:Key="InfoColor_T6" Color="#CC909399" />
+    <SolidColorBrush x:Key="InfoColor_T5" Color="#AA909399" />
+    <SolidColorBrush x:Key="InfoColor_T4" Color="#88909399" />
+    <SolidColorBrush x:Key="InfoColor_T3" Color="#66909399" />
+    <SolidColorBrush x:Key="InfoColor_T2" Color="#44909399" />
+    <SolidColorBrush x:Key="InfoColor_T1" Color="#22909399" />
+
+    <!--  中性色  -->
+    <SolidColorBrush x:Key="PrimaryTextColor" Color="#303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T7" Color="#EE303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T6" Color="#CC303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T5" Color="#AA303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T4" Color="#88303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T3" Color="#66303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T2" Color="#44303133" />
+    <SolidColorBrush x:Key="PrimaryTextColor_T1" Color="#22303133" />
+
+    <SolidColorBrush x:Key="RegularTextColor" Color="#606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T7" Color="#EE606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T6" Color="#CC606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T5" Color="#AA606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T4" Color="#88606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T3" Color="#66606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T2" Color="#44606266" />
+    <SolidColorBrush x:Key="RegularTextColor_T1" Color="#22606266" />
+
+    <SolidColorBrush x:Key="SecondaryTextColor" Color="#909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T7" Color="#EE909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T6" Color="#CC909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T5" Color="#AA909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T4" Color="#88909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T3" Color="#66909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T2" Color="#44909399" />
+    <SolidColorBrush x:Key="SecondaryTextColor_T1" Color="#22909399" />
+
+    <SolidColorBrush x:Key="PlaceholderTextColor" Color="#A8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T7" Color="#EEA8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T6" Color="#CCA8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T5" Color="#AAA8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T4" Color="#88A8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T3" Color="#66A8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T2" Color="#44A8ABB2" />
+    <SolidColorBrush x:Key="PlaceholderTextColor_T1" Color="#22A8ABB2" />
+
+    <SolidColorBrush x:Key="DisabledTextColor" Color="#C0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T7" Color="#EEC0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T6" Color="#CCC0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T5" Color="#AAC0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T4" Color="#88C0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T3" Color="#66C0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T2" Color="#44C0C4CC" />
+    <SolidColorBrush x:Key="DisabledTextColor_T1" Color="#22C0C4CC" />
+
+    <SolidColorBrush x:Key="DarkerBorderColor" Color="#CDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T7" Color="#EECDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T6" Color="#CCCDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T5" Color="#AACDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T4" Color="#88CDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T3" Color="#66CDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T2" Color="#44CDD0D6" />
+    <SolidColorBrush x:Key="DarkerBorderColor_T1" Color="#22CDD0D6" />
+
+    <SolidColorBrush x:Key="DarkBorderColor" Color="#D4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T7" Color="#EED4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T6" Color="#CCD4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T5" Color="#AAD4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T4" Color="#88D4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T3" Color="#66D4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T2" Color="#44D4D7DE" />
+    <SolidColorBrush x:Key="DarkBorderColor_T1" Color="#22D4D7DE" />
+
+    <SolidColorBrush x:Key="BaseBorderColor" Color="#DCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T7" Color="#EEDCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T6" Color="#CCDCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T5" Color="#AADCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T4" Color="#88DCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T3" Color="#66DCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T2" Color="#44DCDFE6" />
+    <SolidColorBrush x:Key="BaseBorderColor_T1" Color="#22DCDFE6" />
+
+    <SolidColorBrush x:Key="LightBorderColor" Color="#E4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T7" Color="#EEE4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T6" Color="#CCE4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T5" Color="#AAE4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T4" Color="#88E4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T3" Color="#66E4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T2" Color="#44E4E7ED" />
+    <SolidColorBrush x:Key="LightBorderColor_T1" Color="#22E4E7ED" />
+
+    <SolidColorBrush x:Key="LighterBorderColor" Color="#EBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T7" Color="#EEEBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T6" Color="#CCEBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T5" Color="#AAEBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T4" Color="#88EBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T3" Color="#66EBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T2" Color="#44EBEEF5" />
+    <SolidColorBrush x:Key="LighterBorderColor_T1" Color="#22EBEEF5" />
+
+    <SolidColorBrush x:Key="Extra-lightBorderColor" Color="#F2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T7" Color="#EEF2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T6" Color="#CCF2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T5" Color="#AAF2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T4" Color="#88F2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T3" Color="#66F2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T2" Color="#44F2F6FC" />
+    <SolidColorBrush x:Key="Extra-lightBorderColor_T1" Color="#22F2F6FC" />
+
+    <SolidColorBrush x:Key="DarkerFillColor" Color="#E6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T7" Color="#EEE6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T6" Color="#CCE6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T5" Color="#AAE6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T4" Color="#88E6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T3" Color="#66E6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T2" Color="#44E6E8EB" />
+    <SolidColorBrush x:Key="DarkerFillColor_T1" Color="#22E6E8EB" />
+
+    <SolidColorBrush x:Key="DarkFillColor" Color="#EBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T7" Color="#EEEBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T6" Color="#CCEBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T5" Color="#AAEBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T4" Color="#88EBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T3" Color="#66EBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T2" Color="#44EBEDF0" />
+    <SolidColorBrush x:Key="DarkFillColor_T1" Color="#22EBEDF0" />
+
+    <SolidColorBrush x:Key="BaseFillColor" Color="#F0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T7" Color="#EEF0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T6" Color="#CCF0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T5" Color="#AAF0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T4" Color="#88F0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T3" Color="#66F0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T2" Color="#44F0F2F5" />
+    <SolidColorBrush x:Key="BaseFillColor_T1" Color="#22F0F2F5" />
+
+    <SolidColorBrush x:Key="LightFillColor" Color="#F5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T7" Color="#EEF5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T6" Color="#CCF5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T5" Color="#AAF5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T4" Color="#88F5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T3" Color="#66F5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T2" Color="#44F5F7FA" />
+    <SolidColorBrush x:Key="LightFillColor_T1" Color="#22F5F7FA" />
+
+    <SolidColorBrush x:Key="LighterFillColor" Color="#FAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T7" Color="#EEFAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T6" Color="#CCFAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T5" Color="#AAFAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T4" Color="#88FAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T3" Color="#66FAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T2" Color="#44FAFAFA" />
+    <SolidColorBrush x:Key="LighterFillColor_T1" Color="#22FAFAFA" />
+
+    <SolidColorBrush x:Key="Extra-lightFillColor" Color="#FAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T7" Color="#EEFAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T6" Color="#CCFAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T5" Color="#AAFAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T4" Color="#88FAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T3" Color="#66FAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T2" Color="#44FAFCFF" />
+    <SolidColorBrush x:Key="Extra-lightFillColor_T1" Color="#22FAFCFF" />
+
+    <SolidColorBrush x:Key="BlankFillColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T7" Color="#EEFFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T6" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T5" Color="#AAFFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T4" Color="#88FFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T3" Color="#66FFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T2" Color="#44FFFFFF" />
+    <SolidColorBrush x:Key="BlankFillColor_T1" Color="#22FFFFFF" />
+
+    <SolidColorBrush x:Key="BasicBlackColor" Color="#000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T7" Color="#EE000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T6" Color="#CC000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T5" Color="#AA000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T4" Color="#88000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T3" Color="#66000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T2" Color="#44000000" />
+    <SolidColorBrush x:Key="BasicBlackColor_T1" Color="#22000000" />
+
+    <SolidColorBrush x:Key="BasicWhiteColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T7" Color="#EEFFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T6" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T5" Color="#AAFFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T4" Color="#88FFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T3" Color="#66FFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T2" Color="#44FFFFFF" />
+    <SolidColorBrush x:Key="BasicWhiteColor_T1" Color="#22FFFFFF" />
+
+    <SolidColorBrush x:Key="PageBackgroundColor" Color="#F2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T7" Color="#EEF2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T6" Color="#CCF2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T5" Color="#AAF2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T4" Color="#88F2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T3" Color="#66F2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T2" Color="#44F2F3F5" />
+    <SolidColorBrush x:Key="PageBackgroundColor_T1" Color="#22F2F3F5" />
+
+    <SolidColorBrush x:Key="BaseBackgroundColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T7" Color="#EEFFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T6" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T5" Color="#AAFFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T4" Color="#88FFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T3" Color="#66FFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T2" Color="#44FFFFFF" />
+    <SolidColorBrush x:Key="BaseBackgroundColor_T1" Color="#22FFFFFF" />
+
+    <SolidColorBrush x:Key="OverlayBackgroundColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T7" Color="#EEFFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T6" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T5" Color="#AAFFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T4" Color="#88FFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T3" Color="#66FFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T2" Color="#44FFFFFF" />
+    <SolidColorBrush x:Key="OverlayBackgroundColor_T1" Color="#22FFFFFF" />
+
+</ResourceDictionary>

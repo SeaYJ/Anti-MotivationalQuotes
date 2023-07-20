@@ -1,0 +1,30 @@
+﻿<Application
+    x:Class="Anti_MotivationalQuotes.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Anti_MotivationalQuotes"
+    StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--  主题配色&模板——样式  -->
+                <ResourceDictionary Source="pack://application:,,,/assets/style/ThemeColor.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/assets/style/BtnTemplate.xaml" />
+
+                <!--  主题图标  -->
+                <ResourceDictionary>
+                    <FontFamily x:Key="IconFont">
+                        pack://application:,,,/assets/font/#iconfont
+                    </FontFamily>
+                </ResourceDictionary>
+
+                <!--  主题图片  -->
+                <ResourceDictionary>
+                    <ImageSource x:Key="Logo">
+                        pack://application:,,,/assets/image/logo.png
+                    </ImageSource>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

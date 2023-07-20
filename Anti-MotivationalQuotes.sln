@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anti-MotivationalQuotes", "Anti-MotivationalQuotes\Anti-MotivationalQuotes.csproj", "{D2F1D30B-55A9-46C4-B735-A4E15B0A3F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F1D30B-55A9-46C4-B735-A4E15B0A3F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F1D30B-55A9-46C4-B735-A4E15B0A3F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F1D30B-55A9-46C4-B735-A4E15B0A3F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F1D30B-55A9-46C4-B735-A4E15B0A3F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58149AFB-9AC2-4E01-853D-4696126ED165}
+	EndGlobalSection
+EndGlobal

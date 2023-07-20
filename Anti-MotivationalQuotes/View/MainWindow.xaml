@@ -1,0 +1,193 @@
+﻿<Window
+    x:Class="Anti_MotivationalQuotes.View.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Anti_MotivationalQuotes.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="心里毒鸡汤"
+    Width="800"
+    Height="450"
+    MinWidth="800"
+    MinHeight="450"
+    AllowsTransparency="True"
+    Background="Transparent"
+    FontFamily="微软雅黑"
+    FontSize="14"
+    FontWeight="Regular"
+    Foreground="{StaticResource PrimaryTextColor}"
+    MouseLeftButtonDown="Window_MouseLeftButtonDown"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+    <Border x:Name="RootArea" Background="Transparent">
+        <Grid Margin="6">
+            <!--  窗口阴影  -->
+            <Grid.Effect>
+                <DropShadowEffect
+                    BlurRadius="6"
+                    Opacity="0.3"
+                    ShadowDepth="1"
+                    Color="Gray" />
+            </Grid.Effect>
+            <Border
+                x:Name="WindowArea"
+                Background="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorLevel=1, AncestorType=Window}, Path=Background}"
+                CornerRadius="8">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="32" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Border
+                        x:Name="TitleBarArea"
+                        Grid.Row="0"
+                        Background="{StaticResource PageBackgroundColor}"
+                        CornerRadius="8 8 0 0">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="90" />
+                            </Grid.ColumnDefinitions>
+                            <Image
+                                x:Name="LogoArea"
+                                Grid.Column="0"
+                                Width="24"
+                                Height="24"
+                                Margin="8,0,0,0"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Source="{StaticResource Logo}" />
+                            <Label
+                                Name="TitleArea"
+                                Grid.Column="1"
+                                HorizontalContentAlignment="Left"
+                                VerticalContentAlignment="Center"
+                                Content="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorLevel=1, AncestorType=Window}, Path=Title}"
+                                FontSize="12" />
+                            <StackPanel
+                                Grid.Column="2"
+                                Margin="0,0,3,0"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center"
+                                FlowDirection="RightToLeft"
+                                Orientation="Horizontal">
+                                <Button
+                                    x:Name="WindowCloseBtn"
+                                    Width="26"
+                                    Height="26"
+                                    Margin="1,0,1,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Click="WindowCloseBtn_Click"
+                                    Content="&#xed9f;"
+                                    FontFamily="{StaticResource IconFont}"
+                                    FontSize="16"
+                                    Style="{DynamicResource WindowBtn}" />
+                                <Button
+                                    x:Name="WindowStateBtn"
+                                    Width="26"
+                                    Height="26"
+                                    Margin="1,0,1,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Click="WindowStateBtn_Click"
+                                    Content="&#xeda1;"
+                                    FontFamily="{StaticResource IconFont}"
+                                    FontSize="16"
+                                    Style="{DynamicResource WindowBtn}" />
+                                <Button
+                                    x:Name="WindowMinimizeBtn"
+                                    Width="26"
+                                    Height="26"
+                                    Margin="1,0,1,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Click="WindowMinimizeBtn_Click"
+                                    Content="&#xed3f;"
+                                    FontFamily="{StaticResource IconFont}"
+                                    FontSize="16"
+                                    Style="{DynamicResource WindowBtn}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                    <Border
+                        x:Name="ClientArea"
+                        Grid.Row="1"
+                        Background="{StaticResource BaseBackgroundColor}"
+                        CornerRadius="0 0 8 8">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="8*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="5*" />
+                                <RowDefinition Height="3*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                x:Name="Anti_MotivationalQuotesShowArea"
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                Background="{StaticResource BaseFillColor_T2}"
+                                CornerRadius="4">
+                                <TextBlock
+                                    x:Name="Anti_MotivationalQuotesShowBlock"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontSize="24"
+                                    Foreground="{StaticResource RegularTextColor}"
+                                    Text="上帝为你关上一道防盗门，还会顺手给你上了一把钛合金锁。"
+                                    TextAlignment="Center"
+                                    TextWrapping="WrapWithOverflow" />
+                            </Border>
+                            <Grid Grid.Row="2" Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition
+                                        Height="1*"
+                                        MinHeight="40"
+                                        MaxHeight="80" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition
+                                        Width="1*"
+                                        MinWidth="210"
+                                        MaxWidth="420" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <Border
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch">
+                                    <Button
+                                        x:Name="AnotherBillionBowlsBtn"
+                                        Background="{StaticResource SuccessColor_T5}"
+                                        BorderBrush="{StaticResource SuccessColor_T5}"
+                                        BorderThickness="2"
+                                        Click="AnotherBillionBowlsBtn_Click"
+                                        Content="再来亿碗"
+                                        FontSize="20"
+                                        FontWeight="Bold"
+                                        Foreground="{StaticResource BasicWhiteColor}"
+                                        Style="{StaticResource AnotherBillionBowlsBtn}" />
+                                </Border>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
